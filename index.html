@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fetchApp">
+<head>
+	<meta charset="utf-8">
+	<title>Liars Dice</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+</head>
+
+<body ng-controller="MainController">
+	<div class="container">
+		<div>Player 1:
+			<h3>{{diceNum}}</h3>
+			<img src="images/dice1.png" ng-show="showDice1">
+			<img src="images/dice2.png" ng-show="showDice2">
+			<img src="images/dice3.png" ng-show="showDice3">
+			<img src="images/dice4.png" ng-show="showDice4">
+			<img src="images/dice5.png" ng-show="showDice5">
+			<!-- <h3>{{dice2}}</h3>
+			<img src="images/dice1.png" ng-show="true">
+			<img src="images/dice2.png" ng-show="true">
+			<img src="images/dice3.png" ng-show="true">
+			<img src="images/dice4.png" ng-show="true">
+			<img src="images/dice5.png" ng-show="true">	
+		</div>
+	</div>
+	<!-- <div class="container">
+		<div>Dice value 2:
+			<h3>{{rollDice2}}</h3>
+			<img src="images/dice1.png" ng-show="true">
+			<img src="images/dice2.png" ng-show="showDice2player2">
+			<img src="images/dice3.png" ng-show="showDice3player2">
+			<img src="images/dice4.png" ng-show="showDice4player2">
+			<img src="images/dice5.png" ng-show="showDice5player2">
+		</div>
+	</div> -->
+	<div>Player Score:
+		<h3>{{playerScore}}</h3>
+	</div>
+
+
+
+
+	<!-- <div>Player 2 rolled:
+		{{randomNumber2}}
+	</div> -->
+	
+
+	
+
+	<script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
